@@ -1,4 +1,4 @@
-<div>
+<div style="height: 500px" >
 
     <!--Section: Content-->
     <section class="text-center dark-grey-text mb-5">
