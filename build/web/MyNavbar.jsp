@@ -1,4 +1,6 @@
 <header>
+    
+    <%@include file="Login.jsp" %>
     <%@page contentType="text/html" pageEncoding="UTF-8"%>
     <!--Navbar -->
     <nav class="mb-0 navbar navbar-expand-lg navbar-dark black">
@@ -69,7 +71,7 @@
                                 out.print("</a>");
                                 out.print("<div class=\"dropdown-menu dropdown-menu-lg-right dropdown-secondary\"");
                                 out.print("aria-labelledby=\"navbarDropdownMenuLink-55\">");
-                                out.print("<a class=\"dropdown-item\" href=\"Logout\">Login</a>");
+                                out.print("<a class=\"dropdown-item\" href=\"Logout\">Logout</a>");
                                 out.print("<a class=\"dropdown-item\" href=\"#\">Setting</a>");
                                 out.print("</div>");
                             }
