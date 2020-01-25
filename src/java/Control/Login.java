@@ -46,7 +46,7 @@ public class Login extends HttpServlet {
     public String showName(String email) {
         String username = "";
         try {
-            String sql = "select * from accounts where email = '" + email + "'";
+            String sql = "select * from account where email = '" + email + "'";
             stm = login.Connection().createStatement();
             ResultSet re = stm.executeQuery(sql);
             re.next();
@@ -91,7 +91,7 @@ public class Login extends HttpServlet {
     public boolean chackLogin(String email, String password) {
         boolean f = false;
         try {
-            String sql = "select * from accounts where email = '" + email + "' and password = '" + password + "'";
+            String sql = "select * from account where email = '" + email + "' and password = '" + password + "'";
             stm = login.Connection().createStatement();
             ResultSet re = stm.executeQuery(sql);
             f = re.next();

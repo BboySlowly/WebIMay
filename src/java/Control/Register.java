@@ -47,7 +47,7 @@ public class Register extends HttpServlet {
 
     public boolean insertCustomer(String email, String username, String password) throws SQLException {
         try {
-            String sql = "insert into accounts(email, username, password) values(?,?,?)";
+            String sql = "insert into account(email, username, password) values(?,?,?)";
             Pstm = regis.Connection().prepareStatement(sql);
 
             Pstm.setString(1, email);

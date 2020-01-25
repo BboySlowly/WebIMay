@@ -3,9 +3,10 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>เวบ ไอ้ เมย์ พี่บอยทำ</title>
+        <title>MS6 SHOP</title>
         <!-- MDB icon -->
         <link rel="icon" href="" type="image/x-icon">
         <!-- Font Awesome -->
