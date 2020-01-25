@@ -16,7 +16,7 @@ import java.util.logging.Logger;
 public class ConclassDB {
 
     private String Driver = "com.mysql.jdbc.Driver";
-    private String URL = "jdbc:mysql://localhost/webimay?useUnicode=yes&characterEncoding=UTF-8";
+    private String URL = "jdbc:mysql://localhost/webmay?useUnicode=yes&characterEncoding=UTF-8";
     private String Username = "root";
     private String Pass = "1234";
 
